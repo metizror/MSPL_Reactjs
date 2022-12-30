@@ -1,0 +1,122 @@
+[
+    {
+        "Key": "R1",
+        "Title": "Consumption by region in KBD",
+        "Unit": "kbd",
+        "Datatype": "consumption",
+        "URL": "/results/et/oil-cons/unit/KBD/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-oil.svg"
+    },
+    {
+        "Key": "R2",
+        "Title": "Production by region in KBD",
+        "Unit": "kbd",
+        "Datatype": "production",
+        "URL": "/results/et/oil-prod/unit/KBD/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-oil.svg"
+    },
+    {
+        "Key": "R3",
+        "Title": "Production by region in BCM",
+        "Unit": "bcm",
+        "Datatype": "production",
+        "URL": "/results/et/natgas-prod/unit/BCM/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-natural-gas.svg"
+    },
+    {
+        "Key": "R4",
+        "Title": "Consumption by region in BCM",
+        "Unit": "bcm",
+        "Datatype": "consumption",
+        "URL": "/results/et/natgas-cons/unit/BCM/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-natural-gas.svg"
+    },
+    {
+        "Key": "R5",
+        "Title": "Production by region in MT",
+        "Unit": "mt",
+        "Datatype": "production",
+        "URL": "/results/et/coal-prod/unit/MT/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-coal.svg"
+    },
+    {
+        "Key": "R6",
+        "Title": "Generation by region in TWH",
+        "Unit": "twh",
+        "Datatype": "generation",
+        "URL": "/results/et/nucl-gene/unit/TWH/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-nuclear-energy.svg"
+    },
+    {
+        "Key": "R7",
+        "Title": "Generation by region in TWH",
+        "Unit": "twh",
+        "Datatype": "generation",
+        "URL": "/results/et/hyelec-gene/unit/TWH/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-hydroelectricity.svg"
+    },
+    {
+        "Key": "R8",
+        "Title": "Production by region in KBOED",
+        "Unit": "kboed",
+        "Datatype": "production",
+        "URL": "/results/et/biof-prod/unit/KBOED/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-biofuel.svg"
+    },
+    {
+        "Key": "R9",
+        "Title": "Consumption by region in EJ",
+        "Unit": "ej",
+        "Datatype": "consumption",
+        "URL": "/results/et/renew-cons/unit/EJ/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-renewable.svg"
+    },
+    {
+        "Key": "R10",
+        "Title": "Consumption by region in EJ",
+        "Unit": "ej",
+        "Datatype": "consumption",
+        "URL": "/results/et/prim-cons/unit/EJ/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-primary-energy.svg"
+    },
+    {
+        "Key": "R11",
+        "Title": "Throughput by region in KBD",
+        "Unit": "kbd",
+        "Datatype": "throughput",
+        "URL": "/results/et/refin-thru/unit/KBD/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-refining.svg"
+    },
+    {
+        "Key": "R12",
+        "Title": "Generation by region in TWH",
+        "Unit": "twh",
+        "Datatype": "generation",
+        "URL": "/results/et/electric-gene/unit/TWH/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-electricity.svg"
+    },
+    {
+        "Key": "R13",
+        "Title": "Emissions by region in MTCO\u2082",
+        "Unit": "mtco2",
+        "Datatype": "emissions",
+        "URL": "/results/et/carb-emis/unit/MTCO2/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-co-emissions.svg"
+    },
+    {
+        "Key": "R14",
+        "Title": "Solar capacity by region",
+        "Unit": "mw",
+        "Datatype": "solar capacity",
+        "URL": "/results/et/renew-sc/unit/MW/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-renewable.svg"
+    },
+    {
+        "Key": "R15",
+        "Title": "Wind capacity by region",
+        "Unit": "mw",
+        "Datatype": "wind capacity",
+        "URL": "/results/et/renew-wc/unit/MW/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+        "Icon": "/demo-app/images/icons-energy-renewable.svg"
+    }
+]

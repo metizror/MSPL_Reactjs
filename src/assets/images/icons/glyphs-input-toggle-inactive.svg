@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 20 10">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-504.000000, -1220.000000) translate(79.000000, 852.000000) translate(375.000000, 210.000000) translate(50.000000, 158.000000)">
+                    <rect width="19" height="3" x="1.5" y="3" stroke="#D8D8D8" stroke-width=".5" rx="1.5"/>
+                    <rect width="7" height="7" y=".793" fill="#848484" fill-rule="nonzero" stroke="#848484" stroke-width=".2" rx="3.5" transform="translate(3.500000, 4.292893) rotate(-270.000000) translate(-3.500000, -4.292893)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

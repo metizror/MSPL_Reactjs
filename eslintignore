@@ -1,0 +1,11 @@
+/styles/
+/static/
+/src/assets
+/src/style
+/dist
+*.scss
+*.css
+/node_modules
+/config
+/scripts
+/build

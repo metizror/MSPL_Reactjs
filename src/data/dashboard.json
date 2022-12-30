@@ -1,0 +1,153 @@
+{
+    "EnergyTypes": [
+        {
+            "name": "prim",
+            "title": "Primary energy",
+            "icon": "/images/icons-energy-primary-energy.svg"
+        },
+        {
+            "name": "carb",
+            "title": "Emissions",
+            "icon": "/images/icons-energy-co-emissions.svg"
+        },
+        {
+            "name": "oil",
+            "title": "Oil",
+            "icon": "/images/icons-energy-oil.svg"
+        },
+        {
+            "name": "natgas",
+            "title": "Natural gas",
+            "icon": "/images/icons-energy-natural-gas.svg"
+        },
+        {
+            "name": "coal",
+            "title": "Coal",
+            "icon": "/images/icons-energy-coal.svg"
+        },
+        {
+            "name": "electric",
+            "title": "Electricity",
+            "icon": "/images/icons-energy-electricity.svg"
+        },
+        {
+            "name": "nucl",
+            "title": "Nuclear energy",
+            "icon": "/images/icons-energy-nuclear-energy.svg"
+        },
+        {
+            "name": "hyelec",
+            "title": "Hydroelectricity",
+            "icon": "/images/icons-energy-hydroelectricity.svg"
+        },
+        {
+            "name": "renew",
+            "title": "Renewables",
+            "icon": "/images/icons-energy-renewable.svg"
+        },
+        {
+            "name": "biof",
+            "title": "Biofuels",
+            "icon": "/images/icons-energy-biofuel.svg"
+        },
+        {
+            "name": "refin",
+            "title": "Refining",
+            "icon": "/images/icons-energy-refining.svg"
+        }
+    ],
+    "downloadfullreport": "/all-data/bp-stats-review-all-data.xlsx",
+    "featuredReports": [
+        {
+            "Key": "R1",
+            "Title": "Consumption by region in KBD",
+            "Unit": "kbd",
+            "Datatype": "consumption",
+            "URL": "/results/et/oil-cons/unit/KBD/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+            "Icon": "/images/icons-energy-oil.svg"
+        },
+        {
+            "Key": "R2",
+            "Title": "Production by region in KBD",
+            "Unit": "kbd",
+            "Datatype": "production",
+            "URL": "/results/et/oil-prod/unit/KBD/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+            "Icon": "/images/icons-energy-oil.svg"
+        },
+        {
+            "Key": "R4",
+            "Title": "Consumption by region in BCM",
+            "Unit": "bcm",
+            "Datatype": "consumption",
+            "URL": "/results/et/natgas-cons/unit/BCM/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+            "Icon": "/images/icons-energy-natural-gas.svg"
+        },
+        {
+            "Key": "R9",
+            "Title": "Consumption by region in EJ",
+            "Unit": "ej",
+            "Datatype": "consumption",
+            "URL": "/results/et/renew-cons/unit/EJ/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+            "Icon": "/images/icons-energy-renewable.svg"
+        },
+        {
+            "Key": "R10",
+            "Title": "Consumption by region in EJ",
+            "Unit": "ej",
+            "Datatype": "consumption",
+            "URL": "/results/et/prim-cons/unit/EJ/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+            "Icon": "/images/icons-energy-primary-energy.svg"
+        },
+        {
+            "Key": "R13",
+            "Title": "Emissions by region in MTCO\u2082",
+            "Unit": "mtco2",
+            "Datatype": "emissions",
+            "URL": "/results/et/carb-emis/unit/MTCO2/regions/tNOA/tSCA/tEUR/tCIS/tMIEA/tAFR/tAP/view/area",
+            "Icon": "/images/icons-energy-co-emissions.svg"
+        }
+    ],
+    "energyPrices": [
+        {
+            "key": "spo",
+            "title": "Spot crude prices",
+            "unit": "$-bbl"
+        },
+        {
+            "key": "nat",
+            "title": "Natural gas prices",
+            "unit": "$-million Btu"
+        },
+        {
+            "key": "coa",
+            "title": "Coal prices",
+            "unit": "$-tonne"
+        }
+    ],
+    "energyIndicators": {
+        "key": "enind",
+        "title1": "Socioeconomics total",
+        "sub": [
+            {
+                "key": "pecap",
+                "title": "Primary energy per capita",
+                "unit": "GJ/Capita"
+            },
+            {
+                "key": "pegdp",
+                "title": "Energy intensity",
+                "unit": "EJ/GDP"
+            },
+            {
+                "key": "mtcocap",
+                "title": "CO\u2082 emissions per capita",
+                "unit": "MTCO2/Capita"
+            },
+            {
+                "key": "mtcogdp",
+                "title": "CO\u2082 emissions intensity",
+                "unit": "MTCO2/GDP"
+            }
+        ]
+    }
+}

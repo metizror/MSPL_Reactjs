@@ -1,0 +1,37 @@
+.pg-heading {
+  padding-top: 23px;
+  padding-bottom: 42px;
+  h2 {
+    margin-bottom: 0;
+  }
+  @media screen and (max-width: 991px) {
+    padding-bottom: 30px;
+    padding-top: 15px;
+  }
+}
+.glossary-wrapper {
+  .glossary-word-wrap {
+    padding: 6px 0;
+    .alphabet-result {
+      p {
+        padding-bottom: 24px;
+        line-height: 24px;
+        @media screen and (max-width: 991px) {
+          padding-bottom: 20px;
+        }
+        span.strong-text {
+          font-weight: bold;
+        }
+        span.italic-text {
+          font-style: italic;
+        }
+      }
+    }
+  }
+  &.fixed-height-scroll {
+    height: calc(100vh - 238px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+  }
+}

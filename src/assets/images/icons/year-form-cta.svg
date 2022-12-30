@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="25px" viewBox="0 0 28 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>CTA/Small/Minor</title>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Filter/Year-Copy" transform="translate(-238.000000, -2.000000)">
+            <g id="CTA/Small/Minor" transform="translate(239.000000, 2.000000)">
+                <rect id="Rectangle" stroke="#007F00" fill-opacity="0.4" fill="#FFFFFF" x="0" y="1" width="26" height="23" rx="11.5"></rect>
+                <polygon id="&gt;" fill="#252530" fill-rule="nonzero" points="10.8476562 15.4208984 16.6240234 12.8300781 16.6240234 12.1669922 10.8476562 9.58300781 10.8476562 10.4238281 15.7080078 12.4951172 10.8476562 14.5732422"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

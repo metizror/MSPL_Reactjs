@@ -1,0 +1,188 @@
+.button--primary {
+  font-family: $font-roboto;
+  font-size: $font-size-small;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: $monochrome-2;
+  padding: 10px 25px;
+  transition: 0.2s;
+  background: $primary-1;
+  border-radius: $border-radius-full;
+  text-decoration: none;
+  height: 40px;
+  border: 0;
+  &:hover,
+  &:focus {
+    color: $monochrome-2;
+    background: $primary-4;
+  }
+  &[disabled] {
+    opacity: 1;
+    pointer-events: all;
+    cursor: not-allowed;
+    background: $monochrome-5;
+  }
+}
+
+.button--primary-icon {
+  font-family: $font-roboto;
+  font-size: $font-size-small;
+  font-weight: 300;
+  font-stretch: normal;
+  border: 0;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: $monochrome-2;
+  padding: 10px 25px;
+  transition: 0.2s;
+  background: $primary-1;
+  border-radius: $border-radius-normal;
+  text-decoration: none;
+  height: 40px;
+  &:before {
+    content: '';
+    background: url(../images/icons/glyphs-add-new.svg);
+    width: 16px;
+    height: 16px;
+    top: -1px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    left: -10px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &:hover,
+  &:focus {
+    color: $monochrome-2;
+    background: $primary-4;
+  }
+  &[disabled] {
+    opacity: 1;
+    pointer-events: all;
+    cursor: not-allowed;
+    background: $monochrome-5;
+  }
+}
+
+.button--primary-light {
+  font-family: $font-roboto;
+  font-size: $font-size-small;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: normal;
+  color: $monochrome-1;
+  padding: 10px 25px;
+  transition: 0.2s;
+  background: $primary-2;
+  border-radius: $border-radius-full;
+  text-decoration: none;
+  border: 0;
+  height: 40px;
+  &:hover,
+  &:focus {
+    color: $monochrome-2;
+    background: $primary-4;
+  }
+  &[disabled] {
+    background: $monochrome-5;
+    color: $monochrome-2;
+    opacity: 1;
+    pointer-events: all;
+    cursor: not-allowed;
+  }
+}
+
+.button--outline {
+  font-family: $font-roboto;
+  font-size: $font-size-small;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: $monochrome-1;
+  padding: 9px 25px;
+  transition: 0.2s;
+  border: 1px solid $primary-1;
+  border-radius: $border-radius-full;
+  text-decoration: none;
+  background-color: transparent;
+  height: 40px;
+  &:hover,
+  &:focus {
+    color: $monochrome-2;
+    border: 1px solid $primary-1;
+    background: $primary-1;
+  }
+  &[disabled] {
+    opacity: 1;
+    pointer-events: all;
+    cursor: not-allowed;
+    border: 1px solid $monochrome-5;
+  }
+}
+
+.button--secondary {
+  font-family: $font-roboto;
+  font-size: $font-size-small;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: $monochrome-1;
+  padding: 0;
+  transition: 0.2s;
+  border: 0;
+  background: transparent;
+  text-decoration: none;
+  height: 40px;
+  &:hover,
+  &:focus {
+    color: $primary-4;
+  }
+  &:before {
+    content: '';
+    background: url(../images/icons/link-left-arrow.svg);
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    top: -2px;
+    position: relative;
+    background-position: center;
+  }
+}
+
+.button--default {
+  font-family: $font-roboto;
+  font-size: $font-size-small;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.54;
+  letter-spacing: normal;
+  color: $monochrome-1;
+  padding: 10px 25px;
+  transition: 0.2s;
+  background: #ebebeb;
+  border-radius: $border-radius-full;
+  text-decoration: none;
+  border: 0;
+  height: 40px;
+  &:hover,
+  &:focus {
+    color: $monochrome-1;
+  }
+}
